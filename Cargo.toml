@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "extractor",
+    "visualiser",
+    "route-generator",
+    "connector",
+    "tcas-adapter",
+    "weather"
+]
+
+
+[workspace.package]
+edition = "2021"
+authors = ["Maciek Malik <poczta@maciekmalik.pl>"]
+
+[workspace.dependencies]
+log = "0.4.20"
+fern = "0.6.2"

@@ -1,0 +1,17 @@
+[package]
+name = "connector"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+fern.workspace = true
+log.workspace = true
+mgr_route_generator = { path = "../route-generator" }
+libc = "0.2.153"
+mgr_map_extractor = { path = "../extractor" }

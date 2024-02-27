@@ -1,0 +1,1 @@
+osmconvert data/map_m_slodowiec.osm -o=data/map_m_slodowiec.pbf

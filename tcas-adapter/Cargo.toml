@@ -1,0 +1,11 @@
+[package]
+name = "tcas-adapter"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mgr_map_extractor = { path = "../extractor" }
+rand = "0.8.5"

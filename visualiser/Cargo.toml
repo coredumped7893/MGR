@@ -1,0 +1,17 @@
+[package]
+name = "mgr_map_visualiser"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mgr_map_extractor = { path = "../extractor" }
+mgr_route_generator = { path = "../route-generator" }
+tcas-adapter = { path = "../tcas-adapter" }
+mgr_weather = { path = "../weather" }
+nannou = "0.18.1"
+fern.workspace = true
+log.workspace = true
+humantime = { version = "2.1.0", features = [] }
