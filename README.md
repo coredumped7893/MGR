@@ -1,4 +1,4 @@
-# MGR-map-extractor
+# MGR
 
 ## Requirements
 Rust stable 1.70.0 or later
